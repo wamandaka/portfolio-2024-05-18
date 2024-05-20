@@ -10,7 +10,7 @@ export default function App() {
     <>
       <div className="relative">
         <StarrySky />
-        <div className="max-h-screen w-full snap-y snap-proximity md:snap-mandatory overflow-y-scroll bg-black bg-[url('./assets/bg-pattern.svg')] bg-auto bg-no-repeat lg:bg-cover bg-top">
+        <div className="max-h-screen w-full snap-y snap-mandatory overflow-y-scroll bg-black bg-[url('./assets/bg-pattern.svg')] bg-auto bg-no-repeat lg:bg-cover bg-top">
           <section
             id="section1"
             className="flex h-screen snap-start items-center justify-center"
