@@ -21,12 +21,22 @@ const Hero = () => {
           I have experience in developing Website using ReactJS, and API using
           ExpressJS.
         </h2>
-        <a
-          href="mailto:wamandaka122@gmail.com"
-          className="border border-gray px-4 py-2 mt-10 rounded-full hover:bg-white hover:text-black hover:border-white transition-all duration-300"
-        >
-          Contact Me
-        </a>
+        <div className="flex justify-center items-center gap-3">
+          <a
+            href="mailto:wamandaka122@gmail.com"
+            className="border border-gray px-6 py-2 mt-10 rounded-full hover:bg-white hover:text-black hover:border-white transition-all duration-300"
+          >
+            Contact Me
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1UByVaKSVwxuFtffr7aFORgSQFweYdrtH/view"
+            target="_blank"
+            rel="noreferrer"
+            className="border border-gray px-4 py-2 mt-10 rounded-full hover:bg-white hover:text-black hover:border-white transition-all duration-300"
+          >
+            Download CV
+          </a>
+        </div>
       </div>
     </>
   );
