@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Project from "./components/Project";
 import StarrySky from "./components/StarrySky";
@@ -33,6 +34,12 @@ export default function App() {
             className="flex snap-start items-center justify-center"
           >
             <Training />
+          </section>
+          <section
+            id="section5"
+            className="flex snap-start items-center justify-center"
+          >
+            <Footer />
           </section>
         </div>
       </div>
