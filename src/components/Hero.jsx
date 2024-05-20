@@ -18,10 +18,13 @@ const Hero = () => {
           </span>
         </p>
         <h2 className="text-lg md:text-xl lg:text-2xl font-medium mt-7 w-72 md:w-96 ">
-          I have experience in developing Website using ReactJS, and 
-          API using ExpressJS.
+          I have experience in developing Website using ReactJS, and API using
+          ExpressJS.
         </h2>
-        <a href="mailto:wamandaka122@gmail.com" className="border border-gray px-4 py-2 mt-10 rounded-full hover:bg-white hover:text-black hover:border-white transition-all duration-300">
+        <a
+          href="mailto:wamandaka122@gmail.com"
+          className="border border-gray px-4 py-2 mt-10 rounded-full hover:bg-white hover:text-black hover:border-white transition-all duration-300"
+        >
           Contact Me
         </a>
       </div>
