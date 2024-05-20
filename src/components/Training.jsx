@@ -10,7 +10,7 @@ const Training = () => {
         <p className="text-sm font-medium tracking-[.35em] bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-orange-500">
           EXPLORE NOW
         </p>
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-10 text-start">
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-10 text-start mx-2">
           <li>
             <div className="timeline-middle">
               <svg
