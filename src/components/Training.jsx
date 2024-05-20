@@ -106,6 +106,7 @@ const Training = () => {
               </div>
               <p>Digital Talent Scholarship x Progate</p>
             </div>
+            <hr className="bg-gradient-to-br from-purple-500 to-orange-600" />
           </li>
         </ul>
       </div>
