@@ -1,10 +1,11 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
     <>
-      <div className="w-full h-10 mb-10 space-y-3">
+      <div className="w-full h-10 mb-10 py-10 space-y-5">
         <div className="flex justify-center items-center text-white gap-6">
           <a
             href="https://github.com/wamandaka"
@@ -26,6 +27,9 @@ const Footer = () => {
             rel="noreferrer"
           >
             <FaLinkedin size={30} />
+          </a>
+          <a href="https://x.com/kang_piscokk" target="_blank" rel="noreferrer">
+            <FaSquareXTwitter size={30} />
           </a>
         </div>
         <div className="flex justify-center items-center">
