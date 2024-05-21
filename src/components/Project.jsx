@@ -26,7 +26,7 @@ const Project = () => {
             rel="noreferrer"
             className=""
           >
-            <Card className="bg-transparent text-white">
+            <Card className="bg-transparent text-white  hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300">
               <CardHeader>
                 <CardTitle>Weather App</CardTitle>
               </CardHeader>
@@ -44,21 +44,25 @@ const Project = () => {
             </Card>
           </a>
           <a
-            href="https://personal-website-ayaka.vercel.app/"
+            href="https://github.com/wamandaka/cdp-mock-test"
             target="_blank"
             rel="noreferrer"
             className=""
           >
-            <Card className="bg-transparent text-white">
+            <Card className="bg-transparent text-white hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300">
               <CardHeader>
-                <CardTitle>Personal Website</CardTitle>
+                <CardTitle>REST API Todo List</CardTitle>
               </CardHeader>
               <CardContent>
-                <p>Slicing UI Personal Website with ReactJS and TailwindCSS</p>
+                <p>
+                  Create a REST API Todo List Application for Mock Technical
+                  Test
+                </p>
               </CardContent>
               <CardFooter className="flex justify-center items-center gap-2">
-                <p className="border px-4 py-1 rounded-full">ReactJS</p>
-                <p className="border px-4 py-1 rounded-full">TailwindCSS</p>
+                <p className="border px-4 py-1 rounded-full">NodeJS</p>
+                <p className="border px-4 py-1 rounded-full">ExpressJS</p>
+                <p className="border px-4 py-1 rounded-full">PostgreSQL</p>
               </CardFooter>
             </Card>
           </a>
@@ -68,7 +72,7 @@ const Project = () => {
             rel="noreferrer"
             className=""
           >
-            <Card className="bg-transparent text-white">
+            <Card className="bg-transparent text-white  hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300">
               <CardHeader>
                 <CardTitle>Public API</CardTitle>
               </CardHeader>
@@ -88,7 +92,7 @@ const Project = () => {
             rel="noreferrer"
             className=""
           >
-            <Card className="bg-transparent text-white">
+            <Card className="bg-transparent text-white  hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300">
               <CardHeader>
                 <CardTitle>Landing Page</CardTitle>
               </CardHeader>
