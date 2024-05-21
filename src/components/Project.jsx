@@ -19,7 +19,7 @@ const Project = () => {
         <p className="text-sm font-medium tracking-[.35em] bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-orange-500">
           EXPLORE NOW
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-4 mt-10 mb-20 md:mx-20 md:w-[90%]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-4 mt-10 mb-20 md:mx-20 md:w-[90%] lg:w-[60%]">
           <a
             href="https://wamandaka.github.io/react-app-weatherapp/"
             target="_blank"
