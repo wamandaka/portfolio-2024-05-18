@@ -37,7 +37,7 @@ export default function App() {
           </section>
           <section
             id="section5"
-            className="flex snap-start items-center justify-center"
+            className="flex snap-end items-center justify-center"
           >
             <Footer />
           </section>
