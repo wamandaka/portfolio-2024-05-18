@@ -1,4 +1,8 @@
-import React from "react";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
 
 const Training = () => {
   return (
@@ -29,7 +33,19 @@ const Training = () => {
             <div className="timeline-start md:text-end">
               <time className="font-mono italic">May 2024 - Current</time>
               <div className="text-lg font-black">
-                Mobile App Development React Native
+                <HoverCard>
+                  <HoverCardTrigger className="hover:underline hover:underline-offset-4">
+                    Mobile App Development React Native
+                  </HoverCardTrigger>
+                  <HoverCardContent>
+                    <ul className="list-disc text-sm text-start mx-3">
+                      <li>Learning HTML & CSS</li>
+                      <li>Learning Javascript</li>
+                      <li>Learning GIT</li>
+                      <li>Learning React</li>
+                    </ul>
+                  </HoverCardContent>
+                </HoverCard>
               </div>
               <p className="mb-5">Digital Talent Scholarship x Progate</p>
             </div>
@@ -54,7 +70,38 @@ const Training = () => {
             <div className="timeline-end ">
               <time className="font-mono italic">Sep 2023 - Nov 2023</time>
               <div className="text-lg font-black">
-                Bootcamp Backend Javascript
+                <HoverCard>
+                  <HoverCardTrigger className="hover:underline-offset-4 hover:underline">
+                    Bootcamp Backend Javascript
+                  </HoverCardTrigger>
+                  <HoverCardContent className="w-[500px]">
+                    <ul className="list-disc mx-3 text-sm">
+                      <li>
+                        Create a simple program that performs routing,
+                        middleware, and views using Express.js and implements
+                        token-based authentication using JWT.
+                      </li>
+                      <li>
+                        Develop features for image upload and document upload
+                        (PDF).
+                      </li>
+                      <li>
+                        Implement the generation and download of QR Codes and
+                        integrate with cloud storage services like Imagekit.io.
+                      </li>
+                      <li>
+                        Practice sending emails through a Node.js application
+                        using Nodemailer.
+                      </li>
+                      <li>
+                        Deploy the Express.js application using Railway.app.
+                      </li>
+                      <li>
+                        Create API documentation using swagger-ui-express.
+                      </li>
+                    </ul>
+                  </HoverCardContent>
+                </HoverCard>
               </div>
               <p className="mb-5">Digital Talent Scholarship x Binar Academy</p>
             </div>
@@ -78,7 +125,26 @@ const Training = () => {
             </div>
             <div className="timeline-start md:text-end ">
               <time className="font-mono italic">Jun 2023 - Aug 2023 </time>
-              <div className="text-lg font-black">IT Support</div>
+              <div className="text-lg font-black">
+                <HoverCard>
+                  <HoverCardTrigger className="hover:underline hover:underline-offset-4">
+                    IT Support
+                  </HoverCardTrigger>
+                  <HoverCardContent className="w-[470px]">
+                    <ul className="list-disc text-sm text-start mx-3">
+                      <li>Dasar-Dasar Dukungan Teknis</li>
+                      <li>Seluk Beluk Jaringan Komputer</li>
+                      <li>
+                        Sistem Operasi dan Anda: Menjadi Pengguna yang Berdaya
+                      </li>
+                      <li>Administrasi Sistem dan Layanan Infrastruktur TI</li>
+                      <li>
+                        Keamanan IT: Pertahanan terhadap Kejahatan Digital
+                      </li>
+                    </ul>
+                  </HoverCardContent>
+                </HoverCard>
+              </div>
               <p className="mb-5">Digital Talent Scholarship x Coursera</p>
             </div>
             <hr className="bg-gradient-to-br from-purple-500 to-orange-600" />
@@ -102,7 +168,26 @@ const Training = () => {
             <div className="timeline-end ">
               <time className="font-mono italic">Mar 2023 - Apr 2023</time>
               <div className="text-lg font-black">
-                Intro to Front-end Web Developer
+                <HoverCard>
+                  <HoverCardTrigger className="hover:underline-offset-4 hover:underline">
+                    Intro to Front-end Web Developer
+                  </HoverCardTrigger>
+                  <HoverCardContent className="w-[500px]">
+                    <ul className="list-disc mx-3 text-sm">
+                      <li>
+                        Learning the Basics of HTML, CSS, JavaScript, and Git
+                      </li>
+                      <li>
+                        Creating a Modern and Responsive Web Page based on a
+                        pre-determined theme with team members within 3 days
+                      </li>
+                      <li>
+                        Developing a Calculator Application using JavaScript
+                        within 3 days
+                      </li>
+                    </ul>
+                  </HoverCardContent>
+                </HoverCard>
               </div>
               <p>Digital Talent Scholarship x Progate</p>
             </div>
