@@ -3,14 +3,8 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const Training = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
       <div className="max-w-7xl mx-auto flex flex-col justify-center items-center text-white text-center h-screen">
