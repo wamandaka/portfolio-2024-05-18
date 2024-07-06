@@ -90,7 +90,7 @@ export default function App() {
           {!isSection1Visible && (
             <a
               onClick={(e) => handleSmoothScroll(e, "section1")}
-              className={`text-white text-sm font-medium ml-2 md:hidden absolute right-5 bottom-16 ${
+              className={`text-white text-sm font-medium ml-2 lg:hidden absolute right-5 bottom-16 ${
                 isAnimating ? "animate-rocketAnimate" : ""
               }`}
             >
