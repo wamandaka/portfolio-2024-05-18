@@ -1,10 +1,13 @@
-import React from "react";
 import pp from "../assets/pp.jpg";
 
 const Hero = () => {
   return (
     <>
-      <div className="max-w-7xl mx-auto flex flex-col justify-center items-center text-white text-center h-screen">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        className="max-w-7xl mx-auto flex flex-col justify-center items-center text-white text-center h-screen"
+      >
         <div className="w-32 h-32">
           <img src={pp} alt="" className="rounded-full" />
         </div>

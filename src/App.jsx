@@ -1,17 +1,17 @@
 import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Project from "./components/Project";
 import StarrySky from "./components/StarrySky";
 import Training from "./components/Training";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function App() {
-  // useEffect(() => {
-  //   AOS.init();
-  // }, []);
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className="relative">
