@@ -70,6 +70,10 @@ module.exports = {
           "0%, 100%": { opacity: 0, transform: "scale(0.5)" },
           "50%": { opacity: 1, transform: "scale(1)" },
         },
+        rocketup: {
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-100vh)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -79,6 +83,7 @@ module.exports = {
         "sparkle-3s": "sparkle 3s infinite",
         "sparkle-4s": "sparkle 4s infinite",
         "sparkle-5s": "sparkle 5s infinite",
+        rocketAnimate: "rocketup 0.5s forwards",
       },
     },
   },
