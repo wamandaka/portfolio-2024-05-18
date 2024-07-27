@@ -31,18 +31,35 @@ const Training = () => {
               </svg>
             </div>
             <div className="timeline-start md:text-end">
-              <time className="font-mono italic">May 2024 - Current</time>
+              <time className="font-mono italic">May 2024 - Jul 2024</time>
               <div className="text-lg font-black">
                 <HoverCard>
                   <HoverCardTrigger className="hover:underline hover:underline-offset-4">
                     Mobile App Development React Native
                   </HoverCardTrigger>
-                  <HoverCardContent>
+                  <HoverCardContent className="w-[500px]">
                     <ul className="list-disc text-sm text-start mx-3">
-                      <li>Learning HTML & CSS</li>
-                      <li>Learning Javascript</li>
-                      <li>Learning GIT</li>
-                      <li>Learning React</li>
+                      <li>
+                        Developed websites using React components, resulting in
+                        85% proficiency in creating dynamic web applications.
+                      </li>
+                      <li>
+                        Applied React knowledge through hands-on projects like
+                        ToDo, Note App, and WeatherApp, and Movie App. Gaining
+                        practical experience and proficiency in real-case
+                        scenarios.
+                      </li>
+                      <li>
+                        Studied React Native lifecycle methods and mobile UI
+                        component development, achieving an 85% proficiency in
+                        mobile application development.
+                      </li>
+                      <li>
+                        Integrated APIs using Axios and developed a React Native
+                        + TypeScript application, demonstrating advanced skills
+                        and achieving 95% proficiency in application
+                        development.
+                      </li>
                     </ul>
                   </HoverCardContent>
                 </HoverCard>
