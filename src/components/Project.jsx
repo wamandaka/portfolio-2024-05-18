@@ -1,13 +1,13 @@
-import React from "react";
+import { FaReact, FaGithub, FaPlayCircle } from "react-icons/fa";
+import { SiTailwindcss, SiAxios } from "react-icons/si";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Button } from "./ui/button";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const dataProjects = [
   {
@@ -16,11 +16,8 @@ const dataProjects = [
     url: "https://wamandaka.github.io/react-app-weatherapp/",
     description:
       "Create a Weather App using ReactJS, TailwindCSS, Axios and OpenWeather API",
-    technologies: [
-      { name: "ReactJS", color: "blue" },
-      { name: "TailwindCSS", color: "red" },
-      { name: "Axios", color: "text-red-500" },
-    ],
+    technologies: [<FaReact />, <SiTailwindcss />, <SiAxios />],
+    github: "https://github.com/wamandaka/react-app-weatherapp",
   },
   {
     id: 2,
@@ -28,33 +25,21 @@ const dataProjects = [
     url: "https://github.com/wamandaka/cdp-mock-test",
     description:
       "Create a REST API Todo List Application for Mock Technical Test",
-    technologies: [
-      { name: "NodeJS", color: "text-green-700" },
-      { name: "ExpressJS", color: "text-yellow-500" },
-      { name: "PostgreSQL", color: "text-blue-800" },
-    ],
+    technologies: [<FaReact />, <SiTailwindcss />],
   },
   {
     id: 3,
     name: "Public API",
     url: "https://reverse1999-characters-kang-piscok.koyeb.app/",
     description: "Create a Public API (Reverse 1999 Character List)",
-    technologies: [
-      { name: "NodeJS", color: "text-green-700" },
-      { name: "ExpressJS", color: "text-yellow-500" },
-      { name: "PostgreSQL", color: "text-blue-800" },
-    ],
+    technologies: [<FaReact />],
   },
   {
     id: 4,
     name: "Slicing Saas Landing Page",
     url: "https://slicing-saas-landing-page.vercel.app/",
     description: "Slicing UI Landing Page with ReactJS and TailwindCSS",
-    technologies: [
-      { name: "ReactJS", color: "text-blue-500" },
-      { name: "TailwindCSS", color: "text-green-500" },
-      { name: "daisyUI", color: "text-pink-500" },
-    ],
+    technologies: [<FaReact />],
   },
 ];
 
@@ -68,41 +53,50 @@ const Project = () => {
         <p className="text-sm font-medium tracking-[.35em] bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-orange-500">
           EXPLORE NOW
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-4 mt-10 mb-20 md:mx-20 md:w-[90%] lg:w-[60%]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-4 mt-10 md:mx-20 ">
           {dataProjects.map((project) => {
             return (
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noreferrer"
-                className=""
-                key={project.id}
-              >
-                <Card className="bg-transparent group text-white hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300">
-                  <CardHeader>
-                    <CardTitle className="group-hover:bg-clip-text group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-purple-600 group-hover:to-orange-500 group-hover:transition-all group-hover:duration-300 pb-1 group-hover:ease-in">
-                      {project.name}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p>{project.description}</p>
-                  </CardContent>
-                  <CardFooter className="flex justify-center items-center gap-2">
-                    {project.technologies.map((technology, index) => {
+              <div className="card card-compact bg-base-300 lg:w-96 md:w-72 shadow-xl">
+                <div className="card-body">
+                  <h2 className="card-title">{project.name}</h2>
+                  <p className="text-start">{project.description}</p>
+                  <div className="flex gap-2">
+                    {project.technologies.map((tech) => {
                       return (
-                        <p
-                          key={index}
-                          className={`border px-4 py-1 rounded-full hover:text-${technology.color}-500`}
-                        >
-                          {technology.name}
-                        </p>
+                        <div className="flex w-7 h-7 items-center justify-center bg-purple-700 rounded-md">
+                          <span className="text-xl font-medium">{tech}</span>
+                        </div>
                       );
                     })}
-                  </CardFooter>
-                </Card>
-              </a>
+                  </div>
+
+                  <div className="card-actions mt-2">
+                    <NavLink
+                      to={project.github}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-sm bg-orange-500 hover:bg-orange-600 text-white"
+                    >
+                      Repository <FaGithub size={20} />
+                    </NavLink>
+                    <NavLink
+                      to={project.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn btn-sm bg-orange-500 hover:bg-orange-600 text-white"
+                    >
+                      Demo <FaPlayCircle size={20} />
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
             );
           })}
+        </div>
+        <div className="mb-16 mt-4">
+          <NavLink to={"/projects"}>
+            <p>See All Projects</p>
+          </NavLink>
         </div>
       </div>
     </>
