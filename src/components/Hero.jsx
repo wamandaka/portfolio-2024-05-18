@@ -4,15 +4,15 @@ const Hero = () => {
   return (
     <>
       <div
-        data-aos="fade-up"
-        data-aos-duration="3000"
+        // data-aos="fade-up"
+        // data-aos-duration="3000"
         className="max-w-7xl mx-auto flex flex-col justify-center items-center text-white text-center h-screen"
       >
         <div className="w-32 h-32">
           <img src={pp} alt="" className="rounded-full" />
         </div>
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-10 font-poppins">
-          Hi, I'm Daka
+          Hi, I&apos;m Daka
         </h1>
         <p className="text-sm md:text-lg lg:text-xl font-medium">
           I do code &{" "}
@@ -24,18 +24,18 @@ const Hero = () => {
           I have experience in developing Website using ReactJS, and API using
           ExpressJS.
         </h2>
-        <div className="flex justify-center items-center gap-3">
+        <div className="flex justify-center items-center gap-3 mt-7">
           <a
             href="mailto:wamandaka122@gmail.com"
-            className="border border-gray px-6 py-2 mt-10 rounded-full hover:bg-white hover:text-black hover:border-white transition-all duration-300"
+            className="border border-gray px-6 py-2 rounded-full hover:bg-white hover:text-black hover:border-white transition-all duration-300"
           >
             Contact Me
           </a>
           <a
-            href="https://drive.google.com/file/d/1UByVaKSVwxuFtffr7aFORgSQFweYdrtH/view"
+            href="https://drive.google.com/file/d/1COWQ4K628GY_4so8jj2LYiNlzc2i3X3A/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
-            className="border border-gray px-4 py-2 mt-10 rounded-full hover:bg-white hover:text-black hover:border-white transition-all duration-300"
+            className="border border-gray px-4 py-2 rounded-full hover:bg-white hover:text-black hover:border-white transition-all duration-300"
           >
             Download CV
           </a>
