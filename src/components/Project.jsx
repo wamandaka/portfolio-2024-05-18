@@ -21,12 +21,12 @@ const dataProjects = [
   },
   {
     id: 2,
-    name: "REST API Todo List",
-    url: "https://github.com/wamandaka/cdp-mock-test",
+    name: "Movie App React Native",
+    url: "https://drive.google.com/drive/folders/1mG8-Gt8xBq7CVnYxAPK25sWrBw5fb7K5?usp=sharing",
     description:
-      "Create a REST API Todo List Application for Mock Technical Test",
-    technologies: [<FaNodeJs />, <SiExpress />],
-    github: "https://github.com/wamandaka/cdp-mock-test",
+      "Create a Movie App using React Native, TailwindCSS, Axios and OMDB API",
+    technologies: [<FaReact />, <SiTailwindcss />, <SiAxios />],
+    github: "https://github.com/wamandaka/react-native-movie-app-progate",
   },
   {
     id: 3,
