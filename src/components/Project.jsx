@@ -1,5 +1,5 @@
-import { FaReact, FaGithub, FaPlayCircle } from "react-icons/fa";
-import { SiTailwindcss, SiAxios } from "react-icons/si";
+import { FaReact, FaGithub, FaPlayCircle, FaNodeJs } from "react-icons/fa";
+import { SiTailwindcss, SiAxios, SiExpress } from "react-icons/si";
 import {
   Card,
   CardContent,
@@ -25,21 +25,25 @@ const dataProjects = [
     url: "https://github.com/wamandaka/cdp-mock-test",
     description:
       "Create a REST API Todo List Application for Mock Technical Test",
-    technologies: [<FaReact />, <SiTailwindcss />],
+    technologies: [<FaNodeJs />, <SiExpress />],
+    github: "https://github.com/wamandaka/cdp-mock-test",
   },
   {
     id: 3,
     name: "Public API",
     url: "https://reverse1999-characters-kang-piscok.koyeb.app/",
     description: "Create a Public API (Reverse 1999 Character List)",
-    technologies: [<FaReact />],
+    technologies: [<FaNodeJs />, <SiExpress />],
+    github: "https://github.com/wamandaka/reverse-1999-characters-api-fanmade",
   },
   {
     id: 4,
     name: "Slicing Saas Landing Page",
     url: "https://slicing-saas-landing-page.vercel.app/",
     description: "Slicing UI Landing Page with ReactJS and TailwindCSS",
-    technologies: [<FaReact />],
+    technologies: [<FaReact />, <SiTailwindcss />],
+    github:
+      "https://github.com/wamandaka/saas-landing-page-design-by-animaapp.com",
   },
 ];
 
@@ -58,7 +62,9 @@ const Project = () => {
             return (
               <div className="card card-compact bg-base-300 lg:w-96 md:w-72 shadow-xl">
                 <div className="card-body">
-                  <h2 className="card-title">{project.name}</h2>
+                  <h2 className="card-title bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-orange-500 font-bold">
+                    {project.name}
+                  </h2>
                   <p className="text-start">{project.description}</p>
                   <div className="flex gap-2">
                     {project.technologies.map((tech) => {
