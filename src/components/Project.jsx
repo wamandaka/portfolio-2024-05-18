@@ -24,7 +24,7 @@ const dataProjects = [
     name: "Movie App React Native",
     url: "https://drive.google.com/drive/folders/1mG8-Gt8xBq7CVnYxAPK25sWrBw5fb7K5?usp=sharing",
     description:
-      "Create a Movie App using React Native, TailwindCSS, Axios and OMDB API",
+      "Create a Movie App using React Native, TailwindCSS, Axios and TMDB API",
     technologies: [<FaReact />, <SiTailwindcss />, <SiAxios />],
     github: "https://github.com/wamandaka/react-native-movie-app-progate",
   },
