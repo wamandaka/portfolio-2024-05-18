@@ -14,7 +14,7 @@ const Training = () => {
         <p className="text-sm font-medium tracking-[.35em] bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-orange-500">
           EXPLORE NOW
         </p>
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-10 text-start mx-2">
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-8 text-start mx-2">
           <li>
             <div className="timeline-middle">
               <svg
@@ -64,7 +64,16 @@ const Training = () => {
                   </HoverCardContent>
                 </HoverCard>
               </div>
-              <p className="mb-5">Digital Talent Scholarship x Progate</p>
+              <p>Digital Talent Scholarship x Progate</p>
+              <p className="mb-3 text-orange-500 underline underline-offset-2 hover:text-orange-600">
+                <a
+                  href="https://drive.google.com/drive/folders/1bLFxJOG5HDj078j61GVZONlE2dxCNr94?usp=drive_link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Certificate
+                </a>
+              </p>
             </div>
             <hr className="bg-gradient-to-br from-purple-500 to-orange-600" />
           </li>
@@ -120,7 +129,16 @@ const Training = () => {
                   </HoverCardContent>
                 </HoverCard>
               </div>
-              <p className="mb-5">Digital Talent Scholarship x Binar Academy</p>
+              <p className="">Digital Talent Scholarship x Binar Academy</p>
+              <p className="mb-3 text-orange-500 underline underline-offset-2 hover:text-orange-600">
+                <a
+                  href="https://drive.google.com/drive/folders/1HHq37oEO7ryQvOs45YriYW2lhxm2BLl6?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Certificate
+                </a>
+              </p>
             </div>
             <hr className="bg-gradient-to-br from-purple-500 to-orange-600" />
           </li>
@@ -162,7 +180,16 @@ const Training = () => {
                   </HoverCardContent>
                 </HoverCard>
               </div>
-              <p className="mb-5">Digital Talent Scholarship x Coursera</p>
+              <p className="">Digital Talent Scholarship x Coursera</p>
+              <p className="mb-3 text-orange-500 underline underline-offset-2 hover:text-orange-600">
+                <a
+                  href="https://drive.google.com/drive/folders/1Qd2MlPR8zvQDuyMmET3iiSuq0hGZoS1-?usp=drive_link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Certificate
+                </a>
+              </p>
             </div>
             <hr className="bg-gradient-to-br from-purple-500 to-orange-600" />
           </li>
@@ -207,6 +234,15 @@ const Training = () => {
                 </HoverCard>
               </div>
               <p>Digital Talent Scholarship x Progate</p>
+              <p className="mb-3 text-orange-500 underline underline-offset-2 hover:text-orange-600">
+                <a
+                  href="https://drive.google.com/drive/folders/1eW3dpRzO1qb57s8EsTr91eN48_FYzXY_?usp=drive_link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Certificate
+                </a>
+              </p>
             </div>
             <hr className="bg-gradient-to-br from-purple-500 to-orange-600" />
           </li>
