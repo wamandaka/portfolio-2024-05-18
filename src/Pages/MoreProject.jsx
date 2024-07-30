@@ -150,7 +150,10 @@ const dataProjects = [
 
 const MoreProject = () => {
   return (
-    <div className="bg-neutral-950 px-4 bg-[url('/src/assets/bg-pattern.png')] bg-auto bg-no-repeat lg:bg-cover bg-top bg-fixed relative">
+    <div
+      id="projects"
+      className="bg-neutral-950 px-4 bg-[url('/src/assets/bg-pattern.png')] bg-auto bg-no-repeat lg:bg-cover bg-top bg-fixed relative"
+    >
       <StarrySky />
       <div className="max-w-7xl mx-auto flex flex-col justify-center items-center text-center text-white">
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mt-10">
