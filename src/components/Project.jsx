@@ -1,12 +1,5 @@
 import { FaReact, FaGithub, FaPlayCircle, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiAxios, SiExpress } from "react-icons/si";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
 import { NavLink, useNavigate } from "react-router-dom";
 
 const dataProjects = [
@@ -44,7 +37,7 @@ const dataProjects = [
     technologies: [<FaReact />, <SiTailwindcss />],
     github:
       "https://github.com/wamandaka/saas-landing-page-design-by-animaapp.com",
-  },
+  }
 ];
 
 const Project = () => {
