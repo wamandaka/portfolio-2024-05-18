@@ -20,7 +20,7 @@ const CardList = (props) => {
           <h2 className="card-title bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-orange-500 font-bold text-start truncate">
             {name}
           </h2>
-          <p className="text-start">{description}</p>
+          <p className="text-start lg:h-10">{description}</p>
           <div className="flex gap-2">
             {technologies.map((tech, index) => {
               return (
