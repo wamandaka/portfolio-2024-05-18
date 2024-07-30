@@ -1,5 +1,4 @@
-import { Suspense, lazy } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MoreProject from "./Pages/MoreProject";
 import Home from "./Pages/Home";
 import Notfound from "./Pages/NotFound";
@@ -9,12 +8,12 @@ const App = () => {
   return (
     <div>
       <Router>
-        <Switch>
+        <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/projects" element={<UnderDevelopement />} /> */}
           <Route path="/projects" element={<MoreProject />} />
           <Route path="*" element={<Notfound />} />
-        </Switch>
+        </Routes>
       </Router>
     </div>
   );
