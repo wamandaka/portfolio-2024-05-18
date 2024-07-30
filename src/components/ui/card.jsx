@@ -12,6 +12,7 @@ const CardList = (props) => {
           <img
             src={img}
             alt={name}
+            loading="lazy"
             className="object-cover transition duration-500 hover:scale-125"
           />
         </figure>
