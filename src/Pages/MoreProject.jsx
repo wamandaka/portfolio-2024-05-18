@@ -172,7 +172,7 @@ const MoreProject = () => {
             return (
               <div key={project.id}>
                 <Suspense fallback={<SkeletonCard />}>
-                  <CardListLazy key={project.id} {...project}></CardListLazy>;
+                  <CardListLazy key={project.id} {...project}></CardListLazy>
                 </Suspense>
               </div>
             );
