@@ -167,7 +167,7 @@ const MoreProject = () => {
             <li>Projects</li>
           </ul>
         </div>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 mx-4 my-10">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-4 my-10">
           {dataProjects.map((project) => {
             return (
               <div key={project.id}>
