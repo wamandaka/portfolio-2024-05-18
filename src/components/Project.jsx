@@ -37,7 +37,7 @@ const dataProjects = [
     technologies: [<FaReact />, <SiTailwindcss />],
     github:
       "https://github.com/wamandaka/saas-landing-page-design-by-animaapp.com",
-  }
+  },
 ];
 
 const Project = () => {
@@ -53,16 +53,22 @@ const Project = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-4 mt-10 md:mx-20 ">
           {dataProjects.map((project) => {
             return (
-              <div className="card card-compact bg-base-300 lg:w-96 md:w-72 shadow-xl">
+              <div
+                key={project.id}
+                className="card card-compact bg-base-300 lg:w-96 md:w-72 shadow-xl"
+              >
                 <div className="card-body">
                   <h2 className="card-title bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-orange-500 font-bold">
                     {project.name}
                   </h2>
                   <p className="text-start">{project.description}</p>
                   <div className="flex gap-2">
-                    {project.technologies.map((tech) => {
+                    {project.technologies.map((tech, index) => {
                       return (
-                        <div className="flex w-7 h-7 items-center justify-center bg-purple-700 rounded-md">
+                        <div
+                          key={index}
+                          className="flex w-7 h-7 items-center justify-center bg-purple-700 rounded-md"
+                        >
                           <span className="text-xl font-medium">{tech}</span>
                         </div>
                       );
