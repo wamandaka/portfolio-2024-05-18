@@ -7,6 +7,7 @@ import StarrySky from "../components/StarrySky";
 import Training from "../components/Training";
 import Navigation from "../components/Navigation";
 import { BsRocket } from "react-icons/bs";
+import Experince from "@/components/Experince";
 
 export default function Home() {
   const [isAnimating, setIsAnimating] = useState(false);
@@ -65,18 +66,24 @@ export default function Home() {
           </section>
           <section
             id="section3"
-            className="flex snap-start items-center justify-center"
+            className="flex h-screen snap-start items-center justify-center"
           >
-            <Project />
+            <Experince />
           </section>
           <section
             id="section4"
             className="flex snap-start items-center justify-center"
           >
-            <Training />
+            <Project />
           </section>
           <section
             id="section5"
+            className="flex snap-start items-center justify-center"
+          >
+            <Training />
+          </section>
+          <section
+            id="section6"
             className="flex snap-end items-center justify-center"
           >
             <Footer />
