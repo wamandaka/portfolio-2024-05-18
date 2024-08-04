@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
-import { FaHome, FaInfoCircle, FaFileCode, FaFly } from "react-icons/fa";
+import { FaHome, FaFileCode, FaUser } from "react-icons/fa";
+import { MdWorkHistory } from "react-icons/md";
+import { PiCertificateFill } from "react-icons/pi";
 import { NavLink } from "react-router-dom";
 
 const dataNav = [
@@ -15,14 +17,14 @@ const dataNav = [
     name: "About",
     url: "section2",
     animateDuration: "slow",
-    icon: <FaInfoCircle />,
+    icon: <FaUser />,
   },
   {
     id: 3,
     name: "Experience",
     url: "section3",
     animateDuration: "slow",
-    icon: <FaFly />,
+    icon: <MdWorkHistory />,
   },
   {
     id: 4,
@@ -36,7 +38,7 @@ const dataNav = [
     name: "Certificates",
     url: "section5",
     animateDuration: "faster",
-    icon: <FaFly />,
+    icon: <PiCertificateFill />,
   },
 ];
 
