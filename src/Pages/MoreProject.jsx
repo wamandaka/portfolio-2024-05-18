@@ -114,6 +114,8 @@ const dataProjects = [
     technologies: [<FaReact />, <SiTailwindcss />],
     github: "https://github.com/wamandaka/portfolio-2024-05-18",
     img: Portfoliov4,
+    design:
+      "https://www.figma.com/design/1m81ovIJAS3TgJqqSpCdIL/Developer-Portfolio-Design-(Community)?node-id=0-1&t=A0MW3zI80TCbfmj8-0",
   },
   {
     id: 9,
