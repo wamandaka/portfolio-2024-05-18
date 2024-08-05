@@ -12,10 +12,9 @@ const Experince = () => {
         </p>
         <div className="lg:flex text-start justify-between mt-10 items-end space-y-3 w-72 md:w-[75%]">
           <h1 className="text-2xl">
-            <span className="font-bold">Mendix Developer /</span> Software
-            Engineer Internship
+            <span className="font-bold">Mendix Developer Internship</span> at Merkle Innovation
           </h1>
-          <p>23 APRIL 2024 - 23 JULY 2024, JAKARTA</p>
+          <p>APR 2024 - JUL 2024, JAKARTA</p>
         </div>
         <div className="lg:text-start mt-10 text-start text-sm md:text-lg w-72 md:w-[75%]">
           <ul className="space-y-2 list-disc list-inside">
