@@ -100,7 +100,7 @@ const Project = () => {
         </div>
         <div className="mb-16 mt-4">
           <NavLink to={"/projects"}>
-            <p>See All Projects</p>
+            <p>More Projects {">"}</p>
           </NavLink>
         </div>
       </div>
