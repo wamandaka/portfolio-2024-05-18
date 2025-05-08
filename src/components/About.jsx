@@ -9,14 +9,7 @@ const About = () => {
           EXPLORE NOW
         </p>
         <p className="text-sm md:text-lg font-medium mt-10 w-72 md:w-1/2 lg:w-[75%]">
-          I&apos;m a Bachelor of Computer Science and a graduate from Binar
-          Academy Bootcamp stack Backend Javascript. Having good knowladge and
-          skill working with various frameworks and tools through my projects.
-        </p>
-        <p className="text-sm md:text-lg font-medium mt-7 w-72 md:w-1/2 lg:w-[75%]">
-          I have experience in developing Landing Pages using ReactJS and
-          developing API using ExpressJS. Currently, I&apos;m seeking an
-          opportunity to continue growing my skill set in the Full-Stack field.
+         I'm a Computer Science graduate with hands-on experience in frontend web development. I’ve worked with React and Next.js to build responsive dashboards and an event ticketing platform. Passionate about creating clean, user-focused interfaces, I'm eager to keep growing as a frontend developer and contribute to impactful digital products.
         </p>
       </div>
     </>
