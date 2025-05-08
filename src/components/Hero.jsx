@@ -1,6 +1,8 @@
 import pp from "../assets/pp.jpg";
 
 const Hero = () => {
+   const urlResume =
+    "https://drive.google.com/file/d/1OleZS0hx0FLzpG3C1MEiOCdTWPJ8SyfX/view?usp=sharing";
   return (
     <>
       <div
@@ -32,7 +34,7 @@ const Hero = () => {
             Contact Me
           </a>
           <a
-            href="https://drive.google.com/file/d/1COWQ4K628GY_4so8jj2LYiNlzc2i3X3A/view?usp=sharing"
+            href={urlResume}
             target="_blank"
             rel="noreferrer"
             className="border border-gray px-4 py-2 rounded-full hover:bg-white hover:text-black hover:border-white transition-all duration-300"
